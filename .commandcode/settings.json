@@ -9,7 +9,18 @@
       "Shell(findstr:*)",
       "Shell(dir:*)",
       "Shell(git -C \"C:\\Learn AI 4X\" rev-parse --show-toplevel 2>&1; dir /a \"C:\\Learn AI 4X\" 2>&1 | findstr /i \"git\")",
-      "Shell(git:*)"
+      "Shell(git:*)",
+      "Shell(npm:*)",
+      "Shell(npx playwright install chromium)",
+      "Shell(type:*)",
+      "Shell(node --version)",
+      "Shell(rmdir:*)",
+      "Shell(del:*)",
+      "Shell(npx playwright --version 2 >& 1)",
+      "Shell(more:*)",
+      "Shell(npm install dotenv 2>&1; echo === EXIT %ERRORLEVEL%; echo ===; dir node_modules 2>&1)",
+      "Shell(npx tsx probe-vwo.ts)",
+      "Shell(npx playwright test --reporter=list 2>&1)"
     ],
     "deny": [],
     "defaultMode": "default"
