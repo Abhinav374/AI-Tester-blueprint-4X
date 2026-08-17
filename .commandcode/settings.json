@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(mvn:*)",
+      "Shell(mkdir:*)",
+      "Shell(move:*)",
+      "Shell(Select-String:*)",
+      "Shell(Select-Object:*)",
+      "Shell(findstr:*)",
+      "Shell(dir:*)",
+      "Shell(git -C \"C:\\Learn AI 4X\" rev-parse --show-toplevel 2>&1; dir /a \"C:\\Learn AI 4X\" 2>&1 | findstr /i \"git\")",
+      "Shell(git:*)"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}

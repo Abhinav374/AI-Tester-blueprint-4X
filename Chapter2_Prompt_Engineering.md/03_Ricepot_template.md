@@ -1,0 +1,7 @@
+// ROLE: [Expertise]
+Instructions: [Purpose]
+CONTEXT: [Background info]
+EXPECTED: [Success criteria]
+PARAMETERS: [Constraints]
+OUTPUT: [Format]
+TONE: [Specific instruction]
