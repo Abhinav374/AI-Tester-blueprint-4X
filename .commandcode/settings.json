@@ -20,7 +20,8 @@
       "Shell(more:*)",
       "Shell(npm install dotenv 2>&1; echo === EXIT %ERRORLEVEL%; echo ===; dir node_modules 2>&1)",
       "Shell(npx tsx probe-vwo.ts)",
-      "Shell(npx playwright test --reporter=list 2>&1)"
+      "Shell(npx playwright test --reporter=list 2>&1)",
+      "Shell(git add -A && git commit -F - <<'EOF' Update VWO framework tsconfig to Node16 module resolution Co-authored-by: CommandCodeBot <noreply@commandcode.ai> EOF)"
     ],
     "deny": [],
     "defaultMode": "default"
