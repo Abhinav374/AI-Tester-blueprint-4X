@@ -18,3 +18,4 @@ Thumbs.db
 
 # Local configuration with credentials
 config.properties.local
+.env

@@ -21,7 +21,20 @@
       "Shell(npm install dotenv 2>&1; echo === EXIT %ERRORLEVEL%; echo ===; dir node_modules 2>&1)",
       "Shell(npx tsx probe-vwo.ts)",
       "Shell(npx playwright test --reporter=list 2>&1)",
-      "Shell(git add -A && git commit -F - <<'EOF' Update VWO framework tsconfig to Node16 module resolution Co-authored-by: CommandCodeBot <noreply@commandcode.ai> EOF)"
+      "Shell(git add -A && git commit -F - <<'EOF' Update VWO framework tsconfig to Node16 module resolution Co-authored-by: CommandCodeBot <noreply@commandcode.ai> EOF)",
+      "Shell(python -c \"import config_store, jira_client, llm_client; print('imports OK'); print('config keys:', sorted(config_store.read_config().keys()))\")",
+      "Shell(py:*)",
+      "Shell(where python3 2>nul; where python 2>nul; dir /b \"%LOCALAPPDATA%\\Programs\\Python\" 2>nul & dir /b \"C:\\Python*\" 2>nul & where conda 2>nul)",
+      "Shell(where.exe pythonw 2>nul & where.exe python3 2>nul & dir /b /s venv\\Scripts\\python.exe 2>nul)",
+      "Shell(where.exe winget 2>nul & echo --- & winget --version 2>nul)",
+      "Shell(winget:*)",
+      "Shell(cmd:*)",
+      "Shell(.venvScriptspython.exe:*)",
+      "Shell(where:*)",
+      "Shell(python --version)",
+      "Shell(python -c \"import docx; print('python-docx available')\" 2>&1; python -c \"import PyPDF2; print('PyPDF2 available')\" 2>&1; python -c \"import fitz; print('PyMuPDF available')\" 2>&1; python -c \"import pdfplumber; print('pdfplumber available')\" 2>&1)",
+      "Shell(python \"C:\\Learn AI 4X\\Chapter4_Jobkit_AI\\files\\_md_to_pdf.py\")",
+      "Shell(python -c \"from pypdf import PdfReader; import glob; [print(f.split(chr(92))[-1], '->', len(PdfReader(f).pages), 'pages') for f in glob.glob(r'C:\\Learn AI 4X\\Chapter4_Jobkit_AI\\output\\*.pdf')]\")"
     ],
     "deny": [],
     "defaultMode": "default"
